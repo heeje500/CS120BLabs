@@ -34,7 +34,7 @@ int main(void) {
 	tmpB = 4 - cntavail;
 	}
 	if (PINA == 0x0F) {
-		tmpB = 0x8F;
+		tmpB = 0x80;
 	}
 	PORTC = tmpB;
 }
